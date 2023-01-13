@@ -26,4 +26,11 @@ module_bd.py
 -в файле поиск по id в категориях и продуктах.
 
 
--
+-Удалила колонку расширение (extension) в таблице employees
+ALTER TABLE employees DROP COLUMN extension
+
+
+-Удалила колонку picture в таблице categories, 
+т.к. фотографии в категории неуместны.
+ALTER TABLE categories DROP COLUMN picture
+
